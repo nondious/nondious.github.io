@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;   
+}
+body{
+    background-color: white;
+    font-family: visbyround;
+}
+.topbar{
+    text-align: center;
+    font-family: visbyround;
+    color: white;
+    background-color: #0366D6;
+    padding: 0 150px;
+    font-size: 50px;
+    line-height: 50px;
+}
+.main{
+    position: fixed;
+    left: 450px;
+    top: 200px;
+    width: 200px;
+}
+@font-face{
+    font-family:montserrat;
+    src: url(Montserrat-Regular.ttf)
+}
+@font-face{
+    font-family:modulus;
+    src: url(Modulus_Medium.ttf)
+}
+@font-face{
+    font-family:visbyround;
+    src: url(VisbyRoundCF-Medium.otf)
+}
